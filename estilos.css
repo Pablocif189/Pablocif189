@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(102, 15, 15, 0.89);
+}
+
+header {
+    background-color: #9b0505;
+    color: rgb(0, 0, 0);
+    padding: 3rem  2rem;
+}
+
+header h1, h3 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header h {
+    font-size: 2rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+.contenedor {
+    width: 550px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #0f9b493b;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p {
+    margin: 1rem; 
+    text-align: center;
+    font-family: monospace;
+}
+
+section img {
+    border-radius: 0.5rem;
+    width: 550px;
+    margin: 0 auto;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem  rgba(0,0,0,0.3);
+}
+
+footer {
+   background-color: #17122e;
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footera:hover {
+    color: cornflowerblue;
+}
